@@ -1,0 +1,117 @@
+.container {
+    width: 320px;
+    margin: 0 auto;
+    padding: 20px  28px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  input {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    /* background-color: green; */
+    color: rgb(17, 73, 6);
+    font-weight: 1000;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  .social-login {
+    margin-top: 20px;
+  }
+  .google-btn img{
+    width: 40px;
+    margin-left: -130px;
+    margin-right: 50px;
+    margin-top: -5px;
+  }
+  .social-buttons button {
+    margin-right: 5px;
+  
+  }
+  .google-btn{
+    font-size: larger;
+    background-color: none;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  span1{
+    color: blue;
+    font-weight: 750;
+  }
+  span2{
+    color: red;
+    font-weight: 750;
+  }
+  span3{
+    color: orange;
+    font-weight: 750;
+  }
+  span4{
+    color: blue;
+    font-weight: 750;
+  }
+  span5{
+    color: green;
+    font-weight: 750;
+  }
+  span6{
+    color: red;
+    font-weight: 750;
+    
+  }
+  .facebook-btn{
+    font-size: larger;
+    background-color: none;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+.facebook-btn img{
+  width: 25px;
+    margin-left: -110px;
+    margin-right: 50px;
+    margin-top: 3px;
+}
+.twitter-btn{
+  font-size: larger;
+    background-color: none;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.twitter-btn img{
+  width: 25px;
+  margin-left: -110px;
+  margin-right: 50px;
+  margin-top: 3px;
+}
+  .create-account {
+    margin-top: 20px;
+  }
+  

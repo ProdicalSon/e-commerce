@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login Page</title>
+  <link rel="stylesheet" type="text/css" href="loginpage1.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Login</h1>
+    <form>
+      <input type="text" placeholder="Username" required>
+      <input type="password" placeholder="Password" required>
+      <button type="submit">Login</button>
+    </form>
+    <div class="social-login">
+      <p><b> Login with:</b></p>
+      <div class="social-buttons">
+        <button class="google-btn">
+          <img src="images/googleimg-removebg-preview.png" alt="">
+            <span1>G</span1>
+            <span2>o</span2>
+            <span3>o</span3>
+            <span4>g</span4>
+            <span5>l</span5>
+            <span6>e</span6>
+        </button><br>
+        <button class="facebook-btn">
+          <img src="images/facebookicon.png" alt="">
+          <span1>Facebook</span1>
+         </button><br>
+        <button class="twitter-btn">
+          <img src="images/tweetericon.png" alt="">
+          Twitter</button>
+      </div>
+    </div>
+    <p class="create-account">Don't have an account? <a href="createaccount.html">Create one</a></p>
+  </div>
+
+  <script>
+    // Function to handle form submission
+    function handleFormSubmit(event) {
+      event.preventDefault(); // Prevent form from submitting
+
+      // Get the values from the input fields
+      const username = document.querySelector('input[type="text"]').value;
+      const password = document.querySelector('input[type="password"]').value;
+
+      // Perform any necessary actions with the username and password
+      // For example, you can send an AJAX request to a server for authentication
+
+      // Reset the form
+      event.target.reset();
+    }
+
+    // Add event listener to the form
+    const loginForm = document.getElementById('loginForm');
+    loginForm.addEventListener('submit', handleFormSubmit);
+  </script>
+
+
+
+
+
+</body>
+</html>
